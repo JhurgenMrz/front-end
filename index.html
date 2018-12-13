@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +8,146 @@
     <link rel="icon" type="images/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
-    
-</head>
-<body>
-    
-    <header class="header">
-        <figure class="logo"> 
-                <img src="images/logo.png" height="50" alt="">
-        </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a href="#events">Experiencia</a>
-                </li>
-                <li><a href="#contacts">Trabajemos Juntos</a></li>
-            </ol>
-            
-        </nav>
 
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+                <figure class="logo">
+                        <img src="images/logo.png" height="50" alt="">
+                    </figure>
+                    <nav class="menu">
+                        <ol>
+                            <li><a href="#portafolio">Portafolio</a></li>
+                            <li><a href="#events">Experiencia</a></li>
+                            <li><a href="#contacts">Trabajemos Juntos</a></li>
+                        </ol>
+            
+                    </nav>
+        </div>
     </header>
 
-    <section class="hero"> 
-        <h1>Hola! Soy <strong>Jhurgen Maraza</strong> <br/>  Desarrollador <strong>Front-end</strong> con pasion de <br/> <strong>ser un Futuro Arquitecto</strong></h1>
-        <!-- <img src="images/hero.jpg" alt="" width="500" height="500px"> -->
-        
-    </section >
-
-    <section id="portafolio" class="portafolio"> 
-    <h2 >Portafolio (Proyectos Destacados)</h2>
-    <article class="project">
-        <div class="project-details">
-        <h3 class="project-title">Platzi-Video</h3>
-        <h6 class="project-course" >React-Native/React</h6>
-        <p class="project-date"><small> <strong>Fecha:</strong> 01/s01/2019</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en:</strong> jmaraza.com</small></p>
-        <p class="project-description">Este es un texto de ejemplo. Aunque muy pronto tendre mis propios proyectos</p>
+    <section class="hero">
+        <div class="container">
+                <h1>Hola! Soy <strong>Jhurgen Maraza</strong> <br /> Desarrollador <strong>Front-end</strong> con pasion de <br />
+                    <strong>ser un Futuro Arquitecto</strong></h1>
+                <img class="hero-image" src="images/hero.jpg" alt="" width="500" height="300">
         </div>
-        <figure class="project-imageContainer">
-            <img class="project-image" src="images/platzi-video-react-native.png" alt="" width="500" height="350">
-        </figure>
-    </article>
-</section>
-    <section class="experience">
-        <h2 class="experience-h2">Mas sobre mi Experiencia</h2>
-        <img src="images/platzi-conf.jpg" width="600" height="500" alt="">
-        <article>
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <h3 class="experience-title">Lagash U 2018</h3>
-            <p class="experience-description">Mi primera Experiencia en el mundo laboral</p>
-            <a class="experience-url" href="">Ver Lagash</a>
-            <img src="images/platzi-video-react-native.png" width="500" alt="">
-        </article>
+
     </section>
-    <section id="events" class="events">seccion eventos</section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="container">
+                <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Platzi-Video</h3>
+                        <h6 class="project-course">React-Native/React</h6>
+                        <p class="project-date"><small> <strong>Fecha:</strong> 01/01/2019</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> jmaraza.com</small></p>
+                        <p class="project-description">Este es un texto de ejemplo. Aunque muy pronto tendre mis propios
+                            proyectos</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="images/platzi-video-react-native.png" alt="" width="500" height="350">
+                    </figure>
+                </article>
+        </div>
+        
+    </section>
+    <div class="container" id="events">
+        <h2 class="event-list-title">Mas sobre mi Experiencia</h2>
+    </div>
+
+    <section  class="event-list ">
+        <div class="container">
+                    <article class="event">
+                        <figure class="events-imageContainer">
+                            <img src="images/platzi-conf.jpg" width="600" height="500" alt="">
+                        </figure>
+                        <div class="event-details">
+                            <h3 class="experience-title">Lagash U 2018</h3>
+                            <p class="event-description">Mi primera Experiencia en el mundo laboral, gracias a la Empresa de Lagash System
+                                y su gran comunidad.</p>
+                            <a class="event-url" href="">Ver Lagash</a>
+                            <!-- <img src="images/platzi-video-react-native.png" width="500" alt=""> -->
+                        </div>
+                    </article>
+                    <article class="event">
+                        <figure class="events-imageContainer">
+                            <img src="images/platzi-conf.jpg" width="600" height="500" alt="">
+                        </figure>
+                        <div class="event-details">
+                            <h3 class="experience-title">Lagash U 2018</h3>
+                            <p class="event-description">Mi primera Experiencia en el mundo laboral, gracias a la Empresa de Lagash System
+                                y su gran comunidad.</p>
+                            <a class="event-url" href="">Ver Lagash</a>
+                            <!-- <img src="images/platzi-video-react-native.png" width="500" alt=""> -->
+                        </div>
+                    </article>
+                    <article class="event">
+                        <figure class="events-imageContainer">
+                            <img src="images/platzi-conf.jpg" width="600" height="500" alt="">
+                        </figure>
+                        <div class="event-details">
+                            <h3 class="experience-title">Lagash U 2018</h3>
+                            <p class="event-description">Mi primera Experiencia en el mundo laboral, gracias a la Empresa de Lagash System
+                                y su gran comunidad.</p>
+                            <a class="event-url" href="">Ver Lagash</a>
+                            <!-- <img src="images/platzi-video-react-native.png" width="500" alt=""> -->
+                        </div>
+                    </article>
+                    <article class="event">
+                        <figure class="events-imageContainer">
+                            <img src="images/platzi-conf.jpg" width="600" height="500" alt="">
+                        </figure>
+                        <div class="event-details">
+                            <h3 class="experience-title">Lagash U 2018</h3>
+                            <p class="event-description">Mi primera Experiencia en el mundo laboral, gracias a la Empresa de Lagash System
+                                y su gran comunidad.</p>
+                            <a class="event-url" href="">Ver Lagash</a>
+                            <!-- <img src="images/platzi-video-react-native.png" width="500" alt=""> -->
+                        </div>
+                    </article>
+        </div>
+        
+    </section>
+
     <section id="contacts" class="contact">
-        <form action="/suscripcion/" class="form-email">
-            <h3>¿Formamos un Equipo?</h3>
-            <label for="email">Dejame tu Email</label>
-            <input type="text" placeholder="Dejame tu Email" id="email">
-            <button>Enviar</button>
+        <div class="container">
+                <form action="/suscripcion/" class="form-email">
+                    <h3>¿Formamos un Equipo?</h3>
+                    <label for="email">Dejame tu Email</label>
+                    <input type="text" placeholder="Dejame tu Email" id="email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://twitter.com/JhurgenMrz" class="social-link twitter"></a>
+                    <a href="https://facebook.com/JhurgenMrz" class="social-link facebook"></a>
+                    <a href="https://github.com/JhurgenMrz" class="social-link github"></a>
+                    <a href="https://instagram.com/jhurgenm" class="social-link instagram"></a>            
+                </div>
+        </div>
         
-        </form>
     </section>
+
     <footer class="footer">
-        <div>
-        <p>Curso de Desarrollo Wb Online - 2018  
-        <img src="images/platzi.png" width="80px" alt="plazti">
-
-        </p>
-        </div>
-        <div>
-            <p>Designed with <\3 by <a href="https://twitter.com/JhurgenMrz">@JhurgenMrz</a>
-            </p>
-        </div>
-
-    </footer>
+        <div class="container">
+            <div>
+                <p>Curso de Desarrollo Wb Online - 2018
+                    <img src="images/platzi.png" width="80px" alt="plazti">
     
+                </p>
+            </div>
+            <div>
+                <p>Designed with <\3 by <a href="https://twitter.com/JhurgenMrz">@JhurgenMrz</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
