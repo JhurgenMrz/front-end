@@ -4,6 +4,7 @@
     celeste = #026fff    */
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 h1,
 h2,
@@ -22,6 +23,7 @@ h1{
     line-height: 160%;
     letter-spacing: -.2px;
     color: white;
+    margin: 0;
     /* text-transform: uppercase;
     text-decoration: dashed; */
 }
@@ -29,6 +31,43 @@ h1{
 .header{
     color: white;
     background-color:  #1d2127 ;
+    display: flex;
+    height: 70px;
+    align-items:center;
+    justify-content: space-between;
+    
+    
+}
+.menu{
+    height: inherit;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+header ol li{
+    height: inherit;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+display: flex;
+align-items: center;
+height: inherit;
+padding: 0 10px;
+}
+
+figure{
+    margin: 0;
 }
 .header a{
     color: white;
@@ -49,9 +88,37 @@ h1{
     border: 2px solid gray;
     border-radius: 10px;
     margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+    
+}
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.project-date,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+/* .project-course{
+    margin: 10px 0;
+} */
+
+.project-description{
+    font-size: 20px;
 }
 .project-details{
 width: 500px;
+}
+.project strong{
+    font-family: 'Fjalla One',sans-serif;
+
 }
 .hero{
     height: 300px;
@@ -60,4 +127,35 @@ width: 500px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #1d2127;  
+    display: flex;
+    align-items: center;
 }
+.footer{
+    background-color: #1d2127;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.portafolio{
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
