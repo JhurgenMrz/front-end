@@ -48,6 +48,17 @@
 .project-description{
     font-size: 1em;
 }
+.event{
+    width: auto;
+    flex-shrink: initial;
+}
+.event img{
+    width: 100%;
+}
+.event-details{
+    margin: -2.3em .5em .5em;
+    padding: 1em;
+}
 }
 @media screen and (max-width: 480px){
     .project-details{
