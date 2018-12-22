@@ -1,4 +1,7 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
+.event-list-title{
+margin: 0;
+}
 .container{
     padding: 0 1em;
 }
@@ -19,7 +22,7 @@
     width: 100%;
 }
 h1{
-    font-size: 2em;
+    font-size: 1.7em;
     z-index: 2;
 }
 .youtube-video{
@@ -42,8 +45,12 @@ h1{
     position: relative;
 }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767.2px){
 
+h2{
+    font-size: 1em;
+    margin: .5em 0;
+}
 .burger-button{
     display: block;
 }
@@ -127,17 +134,22 @@ h1{
     padding: 1em;
 }
 }
+
+
 @media screen and (max-width: 480px){
 .h1{
    font-size: 1.5em;
 }
-    .project-details{
-        font-size: 12px;
-    }
-    .event-details{
-        margin: -2.3em .5em .5em;
-        padding: 1em;
-    }
+.project-details{
+    font-size: 15px;
+}
+.project-imageContainer img {
+    height: 30%;
+}
+.event-details{
+    margin: -2.3em .5em .5em;
+    padding: 1em;
+}
 .contact{
     height: auto;
     padding: 1.5em .5em;
@@ -165,5 +177,10 @@ h1{
 }
 .hero{
     padding: 2em 1em;
+}
+.social-link{
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
 }
 }
