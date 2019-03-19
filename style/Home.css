@@ -1,0 +1,102 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background: #34495e;
+}
+h1{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template: 100px 300px 400px 400px 150px / repeat(3,400px);
+    grid-gap: 10px 0px;
+
+    grid-template-areas:    "header name  link"
+                            "hero   hero    hero"
+                            "info   info    info"
+                            "certificates   certificates    certificates"
+                            "footer footer  footer";
+
+}
+
+.item{
+    /* border: 1px dashed blue; */
+    justify-content: center;
+    align-content: center;
+}
+
+.header{
+    grid-area: header;
+}
+.menu{
+    height: inherit;
+    grid-area: link;
+    background: black;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;    
+}
+
+.menu ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.header{
+    background: #1b2630;
+}
+.name{
+    background: #1b2630;
+}
+.menu{
+    background: #1b2630;
+}
+.name h1{
+    color: white;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+
+.hero{
+    background: #000000;
+    grid-area: hero;
+}
+.hero-image {
+    object-fit: cover;
+}
+.hero h1{
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+.info{
+    background: #1b2630;
+    grid-area: info;
+}
+.certificates{
+    background: #1b2630;
+    grid-area: certificates;
+}
+.footer{
+    background: #1b2630;
+    grid-area: footer;
+}
